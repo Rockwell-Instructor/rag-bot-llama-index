@@ -1,0 +1,6 @@
+streamlit
+llama-index-core
+llama-index-llms-groq
+llama-index-readers-file
+llama-index-embeddings-huggingface
+llama-index-embeddings-instructor
