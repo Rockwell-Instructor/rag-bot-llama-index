@@ -112,7 +112,7 @@ temp = st.slider('Adjust the bot\'s creativity level', 0.0, 2.0)
 ### PROMPT CUSTOMIZATION ###
 
 # User can change the system prompts (see the dictionary above ^)
-if new_prompt := st.selectbox('Choose an attitude for the bot:', ['Helpful', 'Unhelpful']):
+if new_prompt := st.selectbox('Choose a setting for the bot:', ['Helpful', 'Unhelpful']):
     st.session_state['system_prompts'] = ['basic_context', new_prompt] #overwriting prompts instead of appending or swapping (for now)
 
 
